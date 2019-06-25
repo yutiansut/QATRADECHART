@@ -1,19 +1,5 @@
-# Kline     [![npm version](https://badge.fury.io/js/kline.svg)](https://badge.fury.io/js/kline)
+# QATRADECHARTS
 
-<a href="http://www.wtfpl.net/"><img
-       src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png"
-       width="80" height="15" alt="WTFPL" /></a>
-
-[![NPM](https://nodei.co/npm/kline.png)](https://npmjs.org/package/kline)
-
-> 本项目扒了某网站的K线插件做了一些封装和二次开发,使其更加便于使用和修改,方便后来的开发者. 修改主要涉及以下几个点:
-
-* 使用 [webpack](https://webpack.js.org/) 打包 css/images/html
-* 使用 ES6 + Babel 对原有代码进行了拆分和重构
-* 删除了一些不必要的逻辑
-* 把源码中可配置的部分抽出来
-* 添加了对 websocket(stomp over websocket) 连接方式的支持
-* 增加对外接口及事件回调
 
 ### Features
 
@@ -25,18 +11,13 @@
     ✅ 支持深度图数据及最近成交数据展示
     ✅ 支持普通轮询和Websocket Over Stomp两种连接方式
 
-### ScreenShot!
 
-![](screenshot_dark.png)
-
-![](screenshot_light.png)
 
 ### Requirements
 
 * jquery
 * jquery.mousewheel
-* sockjs (仅stomp方式需要)
-* stomp (仅stomp方式需要)
+
 
 ### Install & Load
 
