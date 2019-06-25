@@ -1,0 +1,65 @@
+{
+  "_from": "QATradeChart",
+  "_id": "QATradeChart@1.0.0",
+  "_inBundle": false,
+  "_location": "QATradeChart",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "QATradeChart",
+    "name": "QATradeChart",
+    "escapedName": "QATradeChart",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_spec": "QATradeChart",
+  "_where": "E:\\QATradeChart",
+  "author": {
+    "name": "yutiansut"
+  },
+  "bugs": {
+    "url": "https://github.com/yutiansut/QATradeChart/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "QATradeChart",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.36",
+    "@babel/preset-env": "^7.0.0-beta.36",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.6",
+    "firebase": "^4.8.1",
+    "html-loader": "^0.5.1",
+    "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "homepage": "https://github.com/yutiansut/QATradeChart",
+  "keywords": [
+    "kline"
+  ],
+  "license": "MIT",
+  "main": "dist/kline.js",
+  "name": "kline",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yutiansut/QATradeChart"
+  },
+  "scripts": {
+    "dev": "webpack --progress --colors --watch",
+    "pack": "webpack --progress --colors"
+  },
+  "version": "1.0.0"
+}

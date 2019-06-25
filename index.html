@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="lib/sockjs.js"></script>
+    <script src="lib/stomp.js"></script>
+    <script src="lib/jquery.js"></script>
+    <script src="lib/jquery.mousewheel.js"></script>
+    <script src="dist/kline.js"></script>
+    <script>
+        var kline = new Kline({
+            element: "#kline_container",
+            symbol: "BTC",
+            symbolName: "比特币",
+            type: "poll", // poll/stomp
+            url: "http://127.0.0.1:8080/mock.json",
+            onResize: function(width, height) {
+                console.log("chart resized: " + width + " " + height);
+            }
+        });
+        console.log(kline)
+        kline.draw();
+        kline.connect();
+    </script>
+</head>
+<body>
+    <div id="kline_container"></div>
+</body>
+</html>
