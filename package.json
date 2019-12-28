@@ -1,6 +1,5 @@
 {
   "_from": "QATradeChart",
-  "_id": "QATradeChart@1.0.0",
   "_inBundle": false,
   "_location": "QATradeChart",
   "_phantomChildren": {},
@@ -20,13 +19,10 @@
   ],
   "_spec": "QATradeChart",
   "_where": "E:\\QATradeChart",
-  "author": {
-    "name": "yutiansut"
-  },
+  "author": "yutiansut",
   "bugs": {
     "url": "https://github.com/yutiansut/QATradeChart/issues"
   },
-  "bundleDependencies": false,
   "deprecated": false,
   "description": "QATradeChart",
   "devDependencies": {
@@ -44,7 +40,8 @@
     "webpack": "^3.10.0"
   },
   "directories": {
-    "example": "examples"
+    "example": "examples",
+    "lib": "lib"
   },
   "homepage": "https://github.com/yutiansut/QATradeChart",
   "keywords": [
@@ -52,14 +49,15 @@
   ],
   "license": "MIT",
   "main": "dist/kline.js",
-  "name": "kline",
+  "name": "qatradechart",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yutiansut/QATradeChart"
+    "url": "git+https://github.com/yutiansut/QATradeChart.git"
   },
   "scripts": {
     "dev": "webpack --progress --colors --watch",
     "pack": "webpack --progress --colors"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {}
 }
